@@ -1,7 +1,14 @@
+import Button from "./atoms/Button";
+import Input from "./atoms/Input";
+
 const App = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center ">
-      <h1>Hello World!</h1>
+    <div className="min-h-screen flex flex-col gap-10 items-center justify-center ">
+      <Input  placeholder="Enter your name" type="text"/>
+      <Input  placeholder="Enter your email" type="email"/>
+      <Input placeholder="Enter your password" type="password"/>
+      <Button />
+
     </div>
   )
 }
