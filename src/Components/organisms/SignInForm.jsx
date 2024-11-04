@@ -3,7 +3,7 @@ import Input from "../atoms/Input";
 import CheckboxWithLabel from "../molecules/CheckboxWithLabel";
 import LinkGroup from "../molecules/LinkGroup";
 
-const SignInFrom = () => {
+const SignInForm = () => {
   return (
     <div className="flex flex-col gap-8">
       <h1 className="text-[40px] font-inter font-medium">Sign In</h1>
@@ -22,4 +22,4 @@ const SignInFrom = () => {
   );
 };
 
-export default SignInFrom;
+export default SignInForm;

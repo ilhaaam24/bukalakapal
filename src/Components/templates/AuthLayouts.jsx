@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const AuthLayout = (props) => {
   const { children } = props
 
