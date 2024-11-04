@@ -1,7 +1,11 @@
+import Logo from "../Components/atoms/Logo";
+import Badges from "../Components/atoms/Badges";
+
 const HomePage = () => {
   return (
     <div>
-      <h1>Homepage</h1>
+      <Badges/>
+      <Logo/>
     </div>
   )
 }
