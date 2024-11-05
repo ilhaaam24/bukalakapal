@@ -5,11 +5,11 @@ import Carousel from "../Components/organisms/Carousel/Carousel";
 
 const HomePage = () => {
   return (
-    <div className="px-40">
+    <Fragment>
       <Badges/>
       <Navbar/>
       <Carousel/>
-    </div>
+    </Fragment>
   )
 }
 

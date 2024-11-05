@@ -17,7 +17,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative px-40">
       <CarouselSlide image={slidesData[currentIndex].image} />
       <CarouselControls next={nextSlide} prev={prevSlide} />
     </div>
