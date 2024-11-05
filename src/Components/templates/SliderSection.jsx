@@ -2,7 +2,7 @@ import Carousel from "../organisms/Carousel/Carousel";
 
 const SliderSection = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 pb-10">
       <Carousel />
       <div className="px-40 flex gap-6">
         <div className="w-[643px]">

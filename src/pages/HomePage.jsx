@@ -1,15 +1,16 @@
-import { Fragment } from "react";
 import Badges from "../Components/atoms/Badges";
 import Navbar from "../Components/organisms/Navbar";
 import SliderSection from "../Components/templates/SliderSection";
+import BannerGrid from "../Components/organisms/BannerGrid";
 
 const HomePage = () => {
   return (
-    <Fragment>
+    <div className="h-[300vh]">
       <Badges/>
       <Navbar/>
       <SliderSection/>
-    </Fragment>
+      <BannerGrid/>
+    </div>
   )
 }
 
