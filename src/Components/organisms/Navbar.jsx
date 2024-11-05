@@ -6,7 +6,7 @@ import NavSearch from "../molecules/NavSearch";
 
 const Navbar = () => {
   return (
-    <div className="w-screen flex justify-between items-center px-40 py-4">
+    <div className=" flex justify-between items-center  py-4">
       <Logo />
       <NavLinkGroup />
       <div className="flex gap-4 justify-center items-center">
