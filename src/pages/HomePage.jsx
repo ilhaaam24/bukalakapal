@@ -2,6 +2,7 @@ import Badges from "../Components/atoms/Badges";
 import Navbar from "../Components/organisms/Navbar";
 import SliderSection from "../Components/templates/SliderSection";
 import BannerGrid from "../Components/organisms/BannerGrid";
+import Values from "../Components/organisms/Values";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Navbar/>
       <SliderSection/>
       <BannerGrid/>
+      <Values/>
     </div>
   )
 }
