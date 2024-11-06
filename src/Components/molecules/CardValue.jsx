@@ -1,6 +1,7 @@
 import IconValue from "../atoms/IconValue";
 
 const CardValue = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { children, judul, deskripsi } = props;
   return (
     <div className="h-[220px] w-[262px] bg-[#F3F5F7] flex flex-col px-8 py-12 gap-4">
