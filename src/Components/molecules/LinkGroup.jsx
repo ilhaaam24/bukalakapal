@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LinkGroup = (props) =>{
   const {children,classname, to} = props
   return (
-    <Link to={to} className={` text-base font-semibold font-inter ${classname}`}>
+    <Link to={to} className={`${classname}`}>
       {children}
     </Link>
   );
