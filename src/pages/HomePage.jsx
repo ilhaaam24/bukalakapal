@@ -3,6 +3,7 @@ import Navbar from "../Components/organisms/Navbar";
 import SliderSection from "../Components/templates/SliderSection";
 import BannerGrid from "../Components/organisms/BannerGrid";
 import Values from "../Components/organisms/Values";
+import ProductCarousel from "../Components/organisms/ProductCarousel";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Navbar/>
       <SliderSection/>
       <BannerGrid/>
+      <ProductCarousel/>
       <Values/>
     </div>
   )
