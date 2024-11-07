@@ -4,6 +4,7 @@ import SliderSection from "../Components/templates/SliderSection";
 import BannerGrid from "../Components/organisms/BannerGrid";
 import Values from "../Components/organisms/Values";
 import ProductCarousel from "../Components/organisms/ProductCarousel";
+import Banner from "../Components/organisms/Banner";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <BannerGrid/>
       <ProductCarousel/>
       <Values/>
+      <Banner/>
     </div>
   )
 }
