@@ -1,8 +1,8 @@
 import LinkGroup from "./LinkGroup";
 
-const NavLinkGroup = () => {
+const NavLinkGroup = ({ textColor = "text-[#6C7275]" }) => {
   return (
-    <div className="flex gap-10 text-[#6C7275]">
+    <div className={`flex gap-10 font-inter text-sm ${textColor}`}>
       <LinkGroup>Home</LinkGroup>
       <LinkGroup>Shop</LinkGroup>
       <LinkGroup>Contact Us</LinkGroup>
