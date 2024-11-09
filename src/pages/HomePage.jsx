@@ -5,10 +5,12 @@ import BannerGrid from "../Components/organisms/BannerGrid";
 import Values from "../Components/organisms/Values";
 import ProductCarousel from "../Components/organisms/ProductCarousel";
 import Banner from "../Components/organisms/Banner";
+import BlogSection from "../Components/organisms/BlogSection";
+import Footer from "../Components/organisms/Footer";
 
 const HomePage = () => {
   return (
-    <div className="h-[300vh]">
+    <div className="">
       <Badges/>
       <Navbar/>
       <SliderSection/>
@@ -16,6 +18,8 @@ const HomePage = () => {
       <ProductCarousel/>
       <Values/>
       <Banner/>
+      <BlogSection/>
+      <Footer/>
     </div>
   )
 }

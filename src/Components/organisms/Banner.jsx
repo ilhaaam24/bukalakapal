@@ -2,9 +2,9 @@ import Content from "../molecules/Content";
 
 const Banner = () => {
   return (
-    <div className="px-40 flex h-[532px]">
-      <img src="/src/assets/images/banner/banner.jpg" alt="banner" />
-      <Content classname="pl-[72px] pr-40" />
+    <div className=" flex  border   ">
+      <img src="/src/assets/images/banner/banner.jpg" alt="banner" className="w-1/2 object-cover" />
+      <Content classname="pl-[72px] pr-40 w-1/2 " />
     </div>
   );
 };
