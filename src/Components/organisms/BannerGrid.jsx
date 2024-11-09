@@ -5,13 +5,13 @@ const BannerGrid = () => {
   const { rackets, shoes, bags } = productsData;
 
   return (
-    <div className="w-full px-40  flex  gap-6 h-[664px] border">
+    <div className="w-full px-40  flex  gap-6 h-[664px] ">
       <CardProduct image={rackets[0].image}>Rackets</CardProduct>
       <div className="flex flex-col gap-6">
-        <CardProduct className="h-[319px] w-full" position="justify-start" image={shoes[0].image}>
+        <CardProduct  position="justify-start" image={shoes[0].image}>
           Shoes
         </CardProduct>
-        <CardProduct className="h-[319px] w-full" position="justify-start" image={bags[0].image}>
+        <CardProduct  position="justify-start" image={bags[0].image}>
           Bags
         </CardProduct>
       </div>
