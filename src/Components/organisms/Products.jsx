@@ -41,7 +41,7 @@ const Products = () => {
       </div>
 
       {/* Products and Sorting */}
-      <div className="flex-grow grid  gap-5 overflow-y-scroll scrollbar-scroll">
+      <div className="flex-grow grid  gap-5 ">
         <div className="flex justify-between px-4">
           <h1 className="font-inter font-semibold text-xl">Rackets</h1>
           <div className="flex gap-8">
