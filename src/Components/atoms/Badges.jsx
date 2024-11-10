@@ -18,7 +18,7 @@ const Badges = () => {
           </svg>
           <p className="font-semibold text-sm font-inter">30% off storewide — Limited time! </p>
           <div className=" flex gap-[2px] items-center border-b text-[#377DFF] h-6 border-[#377DFF]">
-            <LinkGroup classname="font-medium text-sm ">Shop Now</LinkGroup>
+            <LinkGroup classname="font-medium text-sm " to="/home/shop">Shop Now</LinkGroup>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
               <path d="M3.75 9.53906H14.25" stroke="#377DFF" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M9.75 14.0391L14.25 9.53906" stroke="#377DFF" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />

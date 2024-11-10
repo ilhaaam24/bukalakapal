@@ -8,10 +8,19 @@ const Account = () => {
       <div className="px-40 pb-20 ">
         <h1 className="py-20 text-[40px] font-medium font-poppins text-center">My Account</h1>
         <div className="flex gap-2 w-full">
-          <div className="px-4 border w-1/4 ">
-            <p>menu</p>
+          <div className="px-4 border w-1/4 py-10 h-fit bg-[#F3F5F7] flex flex-col gap-10 ">
+            <div>
+              <img src="" alt="" />
+              <h2>Elon Musk</h2>
+            </div>
+            <div>
+              <p>Account</p>
+              <p>Account</p>
+              <p>Account</p>
+              <p>Account</p>
+            </div>
           </div>
-          <div className="px-[72px] border flex-grow flex flex-col gap-10">
+          <div className="px-[72px] w-3/4  flex flex-col gap-10">
             <div className="flex flex-col gap-6">
               <h2 className="font-semibold font-inter text-xl">Account Details</h2>
               <div className="flex flex-col gap-3">
