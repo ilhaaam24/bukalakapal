@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 const Label = (props)=>{
-  const { children } = props
+  const { children , classname} = props
   return(
-    <label htmlFor="">{children}</label>
+    <label htmlFor="" className={classname}>{children}</label>
   )
 }
 
