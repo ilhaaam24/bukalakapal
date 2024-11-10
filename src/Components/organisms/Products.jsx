@@ -4,7 +4,6 @@ import LinkGroup from "../molecules/LinkGroup";
 import PriceFilter from "../molecules/PriceFilter";
 import SortIcon from "../molecules/SortICon";
 
-
 const CategoryFilter = () => (
   <div className="flex flex-col gap-4">
     <h2 className="font-semibold font-inter text-base">CATEGORIES</h2>
@@ -41,7 +40,7 @@ const Products = () => {
       </div>
 
       {/* Products and Sorting */}
-      <div className="flex-grow grid  gap-5 ">
+      <div className="flex-grow grid  gap-10 ">
         <div className="flex justify-between px-4">
           <h1 className="font-inter font-semibold text-xl">Rackets</h1>
           <div className="flex gap-8">
@@ -50,12 +49,14 @@ const Products = () => {
           </div>
         </div>
         {/* Product Grid */}
-        <div className="grid grid-cols-3 gap-4">
-         {Array.from({ length: 9 }).map((_, index) => (
-           <CardProduct2 key={index} />
-         ))}
+        <div className="flex flex-col gap-20">
+          <div className="grid grid-cols-3 gap-4">
+            {Array.from({ length: 9 }).map((_, index) => (
+              <CardProduct2 key={index} />
+            ))}
+          </div>
+          <div className="text-center py-1 px-4 border w-fit mx-auto rounded-full cursor-pointer">Show More</div>
         </div>
-        <div className="text-center py-1 px-4 border w-fit mx-auto rounded-full cursor-pointer">Show More</div>
       </div>
     </div>
   );
