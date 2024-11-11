@@ -5,7 +5,7 @@ const Address = () =>{
     <div>
       <h2 className="font-semibold font-inter text-xl">Address</h2>
       <div>
-        <Input />
+        <Input type="text" value="" />
       </div>
     </div>
   );
