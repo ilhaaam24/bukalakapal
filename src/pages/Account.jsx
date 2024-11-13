@@ -2,6 +2,7 @@ import AccountMenus from "../Components/organisms/AccountMenu";
 import MainTemplate from "../Components/templates/MainTemplate";
 import AccountAddress from "../Components/organisms/AccountAddress";
 import OrdersHistory from "../Components/templates/OrdersHistory";
+import Wishlist from "../Components/organisms/Wishlist";
 
 const Account = () => {
   return (
@@ -10,7 +11,7 @@ const Account = () => {
         <h1 className="py-20 text-[40px] font-medium font-poppins text-center">My Account</h1>
         <div className="flex gap-2 w-full">
           <AccountMenus />
-          <OrdersHistory/>
+          <Wishlist/>
         </div>
       </div>
     </MainTemplate>

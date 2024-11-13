@@ -1,6 +1,7 @@
-// OrdersHistory.js
+// src/components/pages/OrdersHistory.js
 
-import OrdersTable from "../organisms/OrdersTable";
+import TableHeader from "../atoms/TableHeader";
+import TableRow from "../molecules/TableRow";
 
 const OrdersHistory = () => {
   const orders = [
@@ -12,8 +13,28 @@ const OrdersHistory = () => {
 
   return (
     <div className="px-[72px] w-3/4 flex flex-col gap-10">
-      <h2 className="font-semibold font-inter text-xl">Orders History</h2>
-      <OrdersTable orders={orders} />
+      <table className="w-full border-collapse">
+        <thead>
+          <tr className="border-b border-gray-300">
+            <TableHeader>Product</TableHeader>
+            <TableHeader>Date</TableHeader>
+            <TableHeader>Status</TableHeader>
+            <TableHeader>Price</TableHeader>
+          </tr>
+        </thead>
+        <tbody>
+          {orders.map((order, index) => (
+            <TableRow
+              key={index}
+              id={order.id}
+              date={order.date}
+              status={order.status}
+              price={order.price}
+              isWishlist={false} // No button in OrdersHistory
+            />
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
