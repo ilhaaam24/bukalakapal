@@ -30,7 +30,7 @@ const OrdersHistory = () => {
               date={order.date}
               status={order.status}
               price={order.price}
-              isWishlist={false} // No button in OrdersHistory
+              type="orderHistory"
             />
           ))}
         </tbody>

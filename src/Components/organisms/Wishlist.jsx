@@ -28,6 +28,7 @@ const Wishlist = () => {
               id={order.id}
               price={order.price}
               isWishlist={true} // Passing true to show the button
+              type="wishlist"
             />
           ))}
         </tbody>
