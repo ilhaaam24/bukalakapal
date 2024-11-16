@@ -10,6 +10,7 @@ import SignInPage from "./pages/Auth/SignInPage.jsx";
 import SignUpPage from "./pages/Auth/SignUpPage.jsx";
 import ShopPage from "./pages/ShopPage.jsx";
 import Account from "./pages/Account.jsx";
+import BlogPage from "./pages/BlogPage.jsx";
 
 // eslint-disable-next-line no-unused-vars
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/home/shop",
     element: <ShopPage />,
+  },
+  {
+    path: "/home/blog",
+    element: <BlogPage />,
   },
   {
     path: "/account",
