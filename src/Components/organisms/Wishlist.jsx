@@ -12,10 +12,10 @@ const Wishlist = () => {
   ];
 
   return (
-    <div className="px-[72px] w-3/4 flex flex-col gap-10">
-      <table className="w-full table-fixed border-collapse">
+    <div className="px-[72px] w-3/4 flex flex-col gap-10 ">
+      <table className="w-full table-auto  border-collapse ">
         <thead>
-          <tr className="border-b border-gray-300">
+          <tr className="border-b  border-gray-300">
             <TableHeader>Product</TableHeader>
             <TableHeader>Price</TableHeader>
             <TableHeader>Action</TableHeader>
