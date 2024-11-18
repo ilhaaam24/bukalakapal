@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="w-[1px] h-5 bg-white"></div>
           <p className="text-sm font-inter">Sport Gear & Equipment Store</p>
         </div>
-        <NavLinkGroup textColor="text-white" />
+        <NavLinkGroup textColor="text-white"  />
       </div>
       <div className="flex gap-7 justify-between items-center py-4">
-        <Copyright />
+        <Copyright /> 
         <SocialIcon/>
       </div>
     </div>

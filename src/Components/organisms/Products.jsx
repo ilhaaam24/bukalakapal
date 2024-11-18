@@ -55,7 +55,9 @@ const Products = () => {
               <CardProduct2 key={index} />
             ))}
           </div>
-          <div className="text-center py-1 px-4 border w-fit mx-auto rounded-full cursor-pointer">Show More</div>
+          <div className="text-center py-2 px-10 border-2 border-black w-fit mx-auto rounded-full cursor-pointer">
+            <LinkGroup classname="text-base font-medium underline leading-7">Show more </LinkGroup>
+          </div>
         </div>
       </div>
     </div>
