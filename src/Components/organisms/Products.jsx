@@ -45,7 +45,6 @@ const Products = () => {
           <h1 className="font-inter font-semibold text-xl">Rackets</h1>
           <div className="flex gap-8">
             <h1>Sort by</h1>
-            <SortIcon />
           </div>
         </div>
         {/* Product Grid */}

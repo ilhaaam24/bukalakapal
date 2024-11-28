@@ -14,7 +14,7 @@ const BlogPage = () => {
             <div>
               <h2>Sort by</h2>
             </div>
-            <div className="flex ">
+            <div className="flex border">
               <div className="p-1 border">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none">
                   <path
