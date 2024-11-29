@@ -56,12 +56,11 @@ const BlogPage = () => {
         </div>
         <div className="flex flex-col gap-20 pt-10 pb-20">
           <div className="grid grid-cols-3 gap-7 ">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card blog="/home/blog/1" />
+            <Card blog="/home/blog/1" />
+            <Card blog="/home/blog/1" />
+            <Card blog="/home/blog/1" />
+            <Card blog="/home/blog/1" />
           </div>
           <div className="text-center py-2 px-10 border-2 border-black w-fit mx-auto rounded-full cursor-pointer">
             <LinkGroup classname="text-base font-medium underline leading-7">Show more </LinkGroup>

@@ -11,6 +11,7 @@ import SignUpPage from "./pages/Auth/SignUpPage.jsx";
 import ShopPage from "./pages/ShopPage.jsx";
 import Account from "./pages/Account.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
+import BlogPost from "./pages/BlogPost.jsx";
 
 // eslint-disable-next-line no-unused-vars
 const router = createBrowserRouter([
@@ -42,7 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/account",
     element: <Account />,
-  },
+  },{
+    path: '/home/blog/1',
+    element: <BlogPost/>
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
