@@ -4,7 +4,7 @@ const SliderSection = () => {
   return (
     <div className="flex flex-col gap-8 pb-10">
       <Carousel />
-      <div className="px-40 flex gap-6">
+      <div className=" flex gap-6">
         <div className="w-[643px]">
           <p className="font-medium text-[40px] font-poppins">
             Unleash Your Potential/ <br /> Gear Up for Success.

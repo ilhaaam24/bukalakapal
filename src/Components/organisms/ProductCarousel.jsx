@@ -3,7 +3,7 @@ import Titles from "../molecules/Titles";
 
 const ProductCarousel = () => {
   return (
-    <div className="flex flex-col px-40 py-12 gap-[42px]">
+    <div className="flex flex-col py-12 gap-[42px]">
       <Titles title="New Arrivals" link="More Products ->" />
 
       {/* Add a horizontal scroll container */}

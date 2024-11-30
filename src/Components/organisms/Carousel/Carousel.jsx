@@ -17,7 +17,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative px-40">
+    <div className="relative ">
       <CarouselSlide image={slidesData[currentIndex].image} />
       <CarouselControls next={nextSlide} prev={prevSlide} />
     </div>

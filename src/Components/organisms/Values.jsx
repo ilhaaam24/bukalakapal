@@ -2,7 +2,7 @@ import CardValue from "../molecules/CardValue";
 
 const Values = () => {
   return (
-    <div className="flex justify-center  gap-6 px-40 py-12">
+    <div className="flex justify-center  gap-6 py-12">
       <CardValue judul="Free Shipping" deskripsi="Order above $200">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
           <path
