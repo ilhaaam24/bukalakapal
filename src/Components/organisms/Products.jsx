@@ -28,7 +28,7 @@ const PriceFilterSection = () => (
 
 const Products = () => {
   return (
-    <div className="px-40 pt-[60px] pb-24 flex gap-6">
+    <div className=" pt-[60px] pb-24 flex gap-6">
       {/* Filter Sidebar */}
       <div className="w-1/4 flex flex-col gap-8">
         <div className="flex items-center gap-2">

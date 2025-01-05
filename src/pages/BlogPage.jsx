@@ -7,7 +7,7 @@ const BlogPage = () => {
   return (
     <MainTemplate>
       <ShopHeader />
-      <div className="px-40 pt-6">
+      <div className=" pt-6">
         <div className="flex justify-between items-center">
           <h2 className="font-inter  font-semibold text-sm border-b-2 border-black ">All Blog</h2>
           <div className="flex gap-8 items-center">

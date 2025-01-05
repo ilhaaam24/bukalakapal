@@ -6,7 +6,7 @@ import TableCell from "../atoms/TableCell";
 
 const TableRow = ({ id, date, status, price, type }) => {
   return (
-    <tr className="border-b border-gray-300">
+    <tr className="border-b border-gray-300 text-center">
       {/* Kondisi untuk tampilan berdasarkan tipe */}
       {type === "orderHistory" && (
         <>
@@ -39,7 +39,7 @@ const TableRow = ({ id, date, status, price, type }) => {
               </div>
           </TableCell>
           <TableCell classname="text-center">{price}</TableCell>
-          <TableCell classname={"flex justify-center items-center border"} >
+          <TableCell classname={"flex justify-center items-center "} >
             <button className="bg-black px-6 py-1 flex justify-center items-center rounded-lg text-white font-inter font-medium text-base leading-7">Add to Cart</button>
           </TableCell>
         </>

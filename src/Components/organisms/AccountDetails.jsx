@@ -4,7 +4,7 @@ import Label from "../atoms/Label";
 
 const AccountDetails = () =>{
   return (
-    <div className="px-[72px] w-3/4  flex flex-col gap-10">
+    <div className="px-[72px]  flex flex-col gap-10">
       <div className="flex flex-col gap-6">
         <h2 className="font-semibold font-inter text-xl">Account Details</h2>
         <div className="flex flex-col gap-3">

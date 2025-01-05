@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
 
+
+import { Link } from "react-router-dom";
+
 const LinkGroup = (props) =>{
-  const {children,classname, to} = props
+  const {children,classname, to, onClick} = props
   return (
-    <a href={to} className={`${classname}`}>
+    <Link to={to} className={`${classname}`} onClick={onClick}>
       {children}
-    </a>
+    </Link>
   );
 }
 

@@ -1,17 +1,17 @@
 import AccountMenus from "../Components/organisms/AccountMenu";
 import MainTemplate from "../Components/templates/MainTemplate";
-import AccountAddress from "../Components/organisms/AccountAddress";
-import OrdersHistory from "../Components/templates/OrdersHistory";
-import Wishlist from "../Components/organisms/Wishlist";
 
-const Account = () => {
+const Account = (props) => {
+  const { children } = props;
   return (
     <MainTemplate>
-      <div className="px-40 pb-20 ">
+      <div className="pb-20">
         <h1 className="py-20 text-[40px] font-medium font-poppins text-center">My Account</h1>
-        <div className="flex gap-2 w-full">
-          <AccountMenus />
-          <Wishlist/>
+        <div className="flex gap-4 w-full ">
+          <div className="flex-grow w-2/6 ">
+            <AccountMenus />
+          </div>
+          <div className="flex-grow w-full ">{children}</div>
         </div>
       </div>
     </MainTemplate>

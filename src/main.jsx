@@ -12,6 +12,12 @@ import ShopPage from "./pages/ShopPage.jsx";
 import Account from "./pages/Account.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import BlogPost from "./pages/BlogPost.jsx";
+import AccountAddress from "./Components/organisms/AccountAddress.jsx";
+import AccountDetails from "./Components/organisms/AccountDetails.jsx";
+import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
+import AccountOrders from "./Components/organisms/AccountOrders.jsx";
+
+import { BrowserRouter } from "react-router-dom";
 
 // eslint-disable-next-line no-unused-vars
 const router = createBrowserRouter([
@@ -42,11 +48,48 @@ const router = createBrowserRouter([
   },
   {
     path: "/account",
-    element: <Account />,
-  },{
-    path: '/home/blog/1',
-    element: <BlogPost/>
-  }
+    element: (
+      <Account>
+        <AccountDetails />
+      </Account>
+    ),
+  },
+  {
+    path: "/home/blog/1",
+    element: <BlogPost />,
+  },
+  {
+    path: "/account/addresses",
+    element: (
+      <Account>
+        <AccountAddress />
+      </Account>
+    ),
+  },
+  {
+    path: "/account/details",
+    element: (
+      <Account>
+        <AccountDetails />
+      </Account>
+    ),
+  },
+  {
+    path: "/account/wishlist",
+    element: (
+      <Account>
+        <AccountWishlist />
+      </Account>
+    ),
+  },
+  {
+    path: "/account/orders",
+    element: (
+      <Account>
+        <AccountOrders />
+      </Account>
+    ),
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
