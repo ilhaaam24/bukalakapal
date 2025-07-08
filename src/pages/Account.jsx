@@ -1,5 +1,6 @@
 import AccountMenus from "../Components/organisms/AccountMenu";
 import MainTemplate from "../Components/templates/MainTemplate";
+import PropTypes from "prop-types";
 
 const Account = (props) => {
   const { children } = props;
@@ -16,6 +17,10 @@ const Account = (props) => {
       </div>
     </MainTemplate>
   );
+};
+
+Account.propTypes = {
+  children: PropTypes.node,
 };
 
 export default Account;
