@@ -4,7 +4,7 @@ const CardImage = () => {
   return (
     <div className="w-[262px] h-[349px] bg-[#F3F5F7] flex flex-col justify-center items-center relative overflow-hidden group">
       <div>
-        <Image image="/src/assets/images/products/rackets/racket1png.png" />
+        <Image image="/assets/images/products/rackets/racket1png.png" />
         <div className="absolute top-4 px-4 w-full flex justify-between">
           <div className="flex flex-col gap-2">
             <p className="px-[14px] bg-white rounded font-inter font-bold text-base text-center">NEW</p>

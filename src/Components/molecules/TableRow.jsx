@@ -31,7 +31,7 @@ const TableRow = ({ id, date, status, price, type }) => {
                 </svg>
               </div>
               <div className="flex items-center gap-4">
-                <Image image="/src/assets/images/blogs/blog1.jpg" classname="w-16 h-20 object-cover" />
+                <Image image="/assets/images/blogs/blog1.jpg" classname="w-16 h-20 object-cover" />
                 <div>
                   <h2 className="font-semibold font-inter text-base">Racket Lining</h2>
                   <p>$ 1,000</p>
