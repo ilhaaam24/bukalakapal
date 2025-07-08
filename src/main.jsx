@@ -1,6 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-// eslint-disable-next-line no-unused-vars
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
@@ -17,9 +16,7 @@ import AccountDetails from "./Components/organisms/AccountDetails.jsx";
 import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
 import AccountOrders from "./Components/organisms/AccountOrders.jsx";
 
-import { BrowserRouter } from "react-router-dom";
 
-// eslint-disable-next-line no-unused-vars
 const router = createBrowserRouter([
   {
     path: "/",
