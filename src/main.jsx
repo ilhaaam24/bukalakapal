@@ -22,7 +22,6 @@ const routes = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />,
   },
-
   {
     path: "/login",
     element: <Login />,

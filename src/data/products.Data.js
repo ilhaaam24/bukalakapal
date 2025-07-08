@@ -2,11 +2,11 @@
 const rackets = [
 {
   id: 1,
-  image: "/src/assets/images/products/rackets/racket1png.png",
+  image: "/assets/images/products/rackets/racket1png.png",
 },
   {
     id: 2,
-    image: "/src/assets/images/products/rackets/racket1.jpg",
+    image: "/assets/images/products/rackets/racket1.jpg",
   // Tambahkan data raket lain jika ada
   }
 ];
@@ -14,7 +14,7 @@ const rackets = [
 const shoes = [
   {
     id: 1,
-    image: "/src/assets/images/products/shoes/shoes.webp",
+    image: "/assets/images/products/shoes/shoes.webp",
   },
   // Tambahkan data sepatu lain jika ada
 ];
@@ -22,7 +22,7 @@ const shoes = [
 const bags = [
   {
     id: 1,
-    image: "/src/assets/images/products/bags/bag1.png",
+    image: "/assets/images/products/bags/bag1.png",
   }
 ]
 const productsData = { rackets, shoes , bags};
