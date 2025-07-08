@@ -19,7 +19,7 @@ import Homepage from "./pages/Homepage.jsx";
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <SignInPage />,
     errorElement: <ErrorPage />,
   },
 
