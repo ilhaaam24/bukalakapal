@@ -16,17 +16,13 @@ import AccountDetails from "./Components/organisms/AccountDetails.jsx";
 import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
 import AccountOrders from "./Components/organisms/AccountOrders.jsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
-  {
-    path: "/home",
-    element: <HomePage />,
-  },
+
   {
     path: "/login",
     element: <SignInPage />,
