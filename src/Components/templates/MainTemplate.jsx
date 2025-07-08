@@ -1,10 +1,10 @@
 // MainTemplate.js
 
+import PropTypes from "prop-types";
 import Footer from "../organisms/Footer";
 import Navbar from "../organisms/Navbar";
 
-const MainTemplate = (props) => {
-  const { children } = props;
+const MainTemplate = ({ children }) => {
   return (
     <div>
       <Navbar />
@@ -12,6 +12,10 @@ const MainTemplate = (props) => {
       <Footer />
     </div>
   );
+};
+
+MainTemplate.propTypes = {
+  children: PropTypes.node,
 };
 
 export default MainTemplate;
