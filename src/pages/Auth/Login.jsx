@@ -1,7 +1,7 @@
 import SignInForm from "../../Components/organisms/SignInForm";
 import AuthLayout from "../../Components/templates/AuthLayouts";
 
-const SignInPage = () => {
+const Login = () => {
   return (
     <AuthLayout>
        <SignInForm />
@@ -9,4 +9,4 @@ const SignInPage = () => {
   );
 };
 
-export default SignInPage;
+export default Login;

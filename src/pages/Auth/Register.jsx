@@ -1,7 +1,7 @@
 import SignUpForm from "../../Components/organisms/SignUpForm";
 import AuthLayout from "../../Components/templates/AuthLayouts";
 
-const SignUpPage = () => {
+const Register = () => {
   return (
     <AuthLayout>
       <SignUpForm />
@@ -9,4 +9,4 @@ const SignUpPage = () => {
   );
 };
 
-export default SignUpPage;
+export default Register;

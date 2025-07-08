@@ -4,8 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
 import ErrorPage from "./pages/Error.jsx";
-import SignInPage from "./pages/Auth/SignInPage.jsx";
-import SignUpPage from "./pages/Auth/SignUpPage.jsx";
 import ShopPage from "./pages/ShopPage.jsx";
 import Account from "./pages/Account.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
@@ -15,6 +13,8 @@ import AccountDetails from "./Components/organisms/AccountDetails.jsx";
 import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
 import AccountOrders from "./Components/organisms/AccountOrders.jsx";
 import Home from "./pages/Home.jsx";
+import Login from "./pages/Auth/Login.jsx";
+import Register from "./pages/Auth/register.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -25,11 +25,11 @@ const routes = createBrowserRouter([
 
   {
     path: "/login",
-    element: <SignInPage />,
+    element: <Login />,
   },
   {
     path: "/register",
-    element: <SignUpPage />,
+    element: <Register />,
   },
   {
     path: "/shop",
