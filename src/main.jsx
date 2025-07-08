@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
+import Home from "./pages/Home.jsx";
 import ErrorPage from "./pages/Error.jsx";
 import ShopPage from "./pages/ShopPage.jsx";
 import Account from "./pages/Account.jsx";
@@ -12,14 +13,13 @@ import AccountAddress from "./Components/organisms/AccountAddress.jsx";
 import AccountDetails from "./Components/organisms/AccountDetails.jsx";
 import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
 import AccountOrders from "./Components/organisms/AccountOrders.jsx";
-import Home from "./pages/Home.jsx";
+import Register from "./pages/Auth/Register.jsx";
 import Login from "./pages/Auth/Login.jsx";
-import Register from "./pages/Auth/register.jsx";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Home/> ,
+    element: <Home />,
     errorElement: <ErrorPage />,
   },
 
