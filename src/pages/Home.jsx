@@ -7,7 +7,7 @@ import ProductCarousel from "../Components/organisms/ProductCarousel";
 import Banner from "../Components/organisms/Banner";
 import BlogSection from "../Components/organisms/BlogSection";
 
-const Homepage = () => {
+const Home = () => {
   return (
     <div>
       <Badges />
@@ -23,4 +23,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
