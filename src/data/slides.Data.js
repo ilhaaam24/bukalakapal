@@ -1,15 +1,15 @@
 const slidesData = [
   {
     id: 1,
-    image: "/images/carousel/Banner1.jpg", // ✅ Tanpa '/src'
+    image: "/assets/images/carousel/Banner1.jpg", // ✅ Tanpa '/src'
   },
   {
     id: 2,
-    image: "/images/carousel/Banner2.jpg",
+    image: "/assets/images/carousel/Banner2.jpg",
   },
   {
     id: 3,
-    image: "/images/carousel/Banner3.webp",
+    image: "/assets/images/carousel/Banner3.webp",
   },
 ];
 
