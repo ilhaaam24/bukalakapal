@@ -14,7 +14,7 @@ import AccountAddress from "./Components/organisms/AccountAddress.jsx";
 import AccountDetails from "./Components/organisms/AccountDetails.jsx";
 import AccountWishlist from "./Components/organisms/AccountWishlist.jsx";
 import AccountOrders from "./Components/organisms/AccountOrders.jsx";
-import Homepage from "./pages/Homepage.jsx";
+// import Homepage from "./pages/Homepage.jsx";
 
 const routes = createBrowserRouter([
   {
