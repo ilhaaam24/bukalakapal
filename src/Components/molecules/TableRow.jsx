@@ -34,7 +34,6 @@ const TableRow = ({ id, date, status, price, type }) => {
                 <Image image="/assets/images/blogs/blog1.jpg" classname="w-16 h-20 object-cover" />
                 <div>
                   <h2 className="font-semibold font-inter text-base">Racket Lining</h2>
-                  <p>$ 1,000</p>
                 </div>
               </div>
           </TableCell>

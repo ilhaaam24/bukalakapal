@@ -5,8 +5,6 @@ import { use } from "react";
 const NavLinkGroup = ({ textColor = "text-[#6C7275]" }) => {
   const [isActive, setIsActive] = useState("Home"); // Default aktif di 'Home'
 
-  
-
   useEffect(() => {
     if (window.location.pathname === "/") {
       setIsActive("Home");
@@ -26,11 +24,11 @@ const NavLinkGroup = ({ textColor = "text-[#6C7275]" }) => {
         },
         {
           name: "Shop",
-          to: "/home/shop",
+          to: "/shop",
         },
         {
           name: "Contact Us",
-          to: "/home/contact",
+          to: "/contact",
         },
       ].map((menu) => (
         <LinkGroup

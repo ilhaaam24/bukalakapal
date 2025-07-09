@@ -3,7 +3,7 @@ import CardImage from "./CardImage";
 
 const CardProduct2 = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <div >
      <CardImage/>
       <CardData />
     </div>

@@ -7,12 +7,12 @@ const BlogPage = () => {
   return (
     <MainTemplate>
       <ShopHeader />
-      <div className=" pt-6">
-        <div className="flex justify-between items-center">
-          <h2 className="font-inter  font-semibold text-sm border-b-2 border-black ">All Blog</h2>
-          <div className="flex gap-8 items-center">
+      <div className="pt-4 sm:pt-6">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+          <h2 className="font-inter font-semibold text-sm border-b-2 border-black">All Blog</h2>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start sm:items-center w-full sm:w-auto">
             <div>
-              <h2>Sort by</h2>
+              <h2 className="text-sm sm:text-base">Sort by</h2>
             </div>
             <div className="flex border">
               <div className="p-1 border">
@@ -54,16 +54,16 @@ const BlogPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-20 pt-10 pb-20">
-          <div className="grid grid-cols-3 gap-7 ">
+        <div className="flex flex-col gap-10 sm:gap-16 md:gap-20 pt-6 sm:pt-10 pb-10 sm:pb-16 md:pb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-7">
             <Card blog="/home/blog/1" />
             <Card blog="/home/blog/1" />
             <Card blog="/home/blog/1" />
             <Card blog="/home/blog/1" />
             <Card blog="/home/blog/1" />
           </div>
-          <div className="text-center py-2 px-10 border-2 border-black w-fit mx-auto rounded-full cursor-pointer">
-            <LinkGroup classname="text-base font-medium underline leading-7">Show more </LinkGroup>
+          <div className="text-center py-2 px-6 sm:px-10 border-2 border-black w-fit mx-auto rounded-full cursor-pointer">
+            <LinkGroup classname="text-sm sm:text-base font-medium underline leading-7">Show more </LinkGroup>
           </div>
         </div>
       </div>

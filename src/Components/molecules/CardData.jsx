@@ -4,7 +4,7 @@ import TitleProduct from "../atoms/TitleProduct";
 
 const CardData = (props) => {
   return (
-    <div>
+    <div className="mt-2">
       <Rating/>
       <TitleProduct>SAGA II SE</TitleProduct>
       <Price>$100</Price>

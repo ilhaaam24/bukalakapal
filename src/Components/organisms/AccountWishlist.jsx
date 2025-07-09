@@ -12,7 +12,7 @@ const AccountWishlist = () => {
   ];
 
   return (
-    <div className="px-[72px]  flex flex-col gap-10 ">
+    <div className="lg:px-[72px]  flex flex-col gap-10 ">
       <table className="w-full table-auto  border-collapse ">
         <thead>
           <tr className="border-b  border-gray-300">

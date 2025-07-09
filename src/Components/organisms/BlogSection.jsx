@@ -5,10 +5,10 @@ const BlogSection = () => {
   return (
     <div className=" py-20 flex  flex-col gap-10">
       <Title title="Articles" to="/home/blog" link="More Articles ->" />
-      <div className="flex  gap-7 ">
-        <Card blog="/home/blog/1" />
-        <Card blog="/home/blog/1" />
-        <Card blog="/home/blog/1" />
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
+        <Card blog="/blog/1" />
+        <Card blog="/blog/1" />
+        <Card blog="/blog/1" />
       </div>
     </div>
   );

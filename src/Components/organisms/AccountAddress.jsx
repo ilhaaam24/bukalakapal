@@ -2,7 +2,7 @@ import Address from "../molecules/Address";
 
 const AccountAddress = () => {
   return (
-    <div className="px-[72px]   flex flex-col gap-5">
+    <div className="lg:px-[72px] flex flex-col gap-5">
       <h2 className="font-semibold font-inter text-xl">Address</h2>
       <div className="flex gap-6 w-full ">
         <Address />
